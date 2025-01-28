@@ -1,0 +1,7 @@
+{
+    "clientID": "RLbyWpRXQ8EGxd8LxIOBwCpL9fYa",
+    "baseUrl": "https://api.asgardeo.io/t/wimukthi",
+    "signInRedirectURL": "http://localhost:5173",
+    "signOutRedirectURL": "http://localhost:5173",
+    "scope": ["profile", "email"]
+}
