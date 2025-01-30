@@ -1,7 +1,7 @@
 {
     "clientID": "RLbyWpRXQ8EGxd8LxIOBwCpL9fYa",
     "baseUrl": "https://api.asgardeo.io/t/wimukthi",
-    "signInRedirectURL": "https://asgardeo-react-authentication-352m1rjg2.vercel.app/",
-    "signOutRedirectURL": "https://asgardeo-react-authentication-352m1rjg2.vercel.app/",
+    "signInRedirectURL": "https://asgardeo-react-authentication-352m1rjg2.vercel.app",
+    "signOutRedirectURL": "https://asgardeo-react-authentication-352m1rjg2.vercel.app",
     "scope": ["profile", "email"]
 }

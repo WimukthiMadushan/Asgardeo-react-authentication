@@ -1,5 +1,5 @@
 import { AuthProvider, useAuthContext } from "@asgardeo/auth-react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import { default as authConfig } from "./config.json";
 import HomePage from "./Pages/HomePage/HomePage";
 import NotFoundPage from "./Pages/NotFoundPage/NotFoundPage";
