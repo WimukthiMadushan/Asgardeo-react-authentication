@@ -1,6 +1,6 @@
 import { AuthProvider, useAuthContext } from "@asgardeo/auth-react";
 import { Routes, Route } from "react-router-dom";
-import { default as authConfig } from "./config.json";
+import authConfig from "./config.json";
 import HomePage from "./Pages/HomePage/HomePage";
 import NotFoundPage from "./Pages/NotFoundPage/NotFoundPage";
 import ContainerPage from "./Pages/ContainerPage/ContainerPage";
@@ -9,7 +9,8 @@ const ProtectedRoute = ({ children }) => {
   const { state, signIn } = useAuthContext();
 
   if (!state.isAuthenticated) {
-    return signIn();
+    signIn();
+    return null;
   }
   return children;
 };
