@@ -18,6 +18,11 @@ This is a React application that implements authentication using **WSO2 Asgardeo
 
 ---
 
+```sh
+https://medium.com/@wimukthibandara928/authentication-and-authorization-567b0c0690f3
+```
+---
+
 ## ⚙️ Setup & Installation
 ### **1️⃣ Clone the Repository**
 ```sh
